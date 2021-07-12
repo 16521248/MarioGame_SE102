@@ -1,1 +1,2 @@
-# Super-Mario-Bros-3
+# GameSuperMarioBros3
+Nhập môn phát triển game
