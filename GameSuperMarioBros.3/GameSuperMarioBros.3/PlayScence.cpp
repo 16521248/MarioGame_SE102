@@ -20,7 +20,8 @@
 #include "BrickMove.h"
 #include "Number3.h"
 #include "Hammer.h"
-#include "HammerBros.h"
+#include "HammerBros.h" 
+
 
 #define animationball	5
 
@@ -149,7 +150,7 @@ void CPlayScene::_ParseSection_ANIMATIONS(string line)
 	LPANIMATION ani = new CAnimation();
 
 	int ani_id = atoi(tokens[0].c_str());
-	for (int i = 1; i < tokens.size(); i += 2)	// why i+=2 ?  sprite_id | frame_time  
+	for (int i = 1; i < tokens.size(); i += 2)	// why i+=2 ?  sprite_id |  frame_time   
 	{
 		int sprite_id = atoi(tokens[i].c_str());
 		int frame_time = atoi(tokens[i+1].c_str());
