@@ -1,6 +1,8 @@
 #include "Cell.h"
 #include "Utils.h"
 
+#include <algorithm>
+
 Cell::Cell()
 {
 	listObject.clear();
